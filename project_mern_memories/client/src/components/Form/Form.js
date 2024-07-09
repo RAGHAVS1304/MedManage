@@ -53,7 +53,7 @@ const Form = ({ currentId, setCurrentId }) => {
     return (
       <Paper className={classes.paper} elevation={6}>
         <Typography variant="h6" align="center">
-          Please Sign In to create your own memories and like other's memories.
+          Please Sign In to create your own posts and like other's posts.
         </Typography>
       </Paper>
     );
@@ -79,7 +79,7 @@ const Form = ({ currentId, setCurrentId }) => {
         onSubmit={handleSubmit}
       >
         <Typography variant="h6">
-          {currentId ? `Editing "${post?.title}"` : "Creating a Memory"}
+          {currentId ? `Editing "${post?.title}"` : "Creating a Post"}
         </Typography>
         <TextField
           name="title"

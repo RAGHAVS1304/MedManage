@@ -1,9 +1,11 @@
-
 body {
-    background-color: #f7f8fc;
+    background-image: url(./images/bg-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; 
 }
 
 * {
-    /* font-family: 'Noto Sans JP' !important; */
     font-family: 'Heebo', sans-serif !important;
 }

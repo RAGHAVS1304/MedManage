@@ -4,8 +4,8 @@ import { Link, useHistory, useLocation } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import decode from "jwt-decode";
 
-import memoriesLogo from "../../images/memoriesLogo.png";
-import memoriesText from "../../images/memoriesText.png";
+import medlogo from "../../images/medimage.png";
+import medtext from "../../images/medtext.png";
 import * as actionType from "../../constants/actionTypes";
 import useStyles from "./styles";
 
@@ -42,13 +42,13 @@ const Navbar = () => {
         <img
           component={Link}
           to="/"
-          src={memoriesText}
+          src={medtext}
           alt="icon"
           height="45px"
         />
         <img
           className={classes.image}
-          src={memoriesLogo}
+          src={medlogo}
           alt="icon"
           height="40px"
         />
